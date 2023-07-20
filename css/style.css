@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1920px;
+    justify-content: center;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#0A0C1B ;
+    color: #fff;
+}
+
+.box{
+    padding: 10px;
+    position: absolute;
+    display: flex;
+    margin-left: 370px;
+    top: 252px;
+    width: 606px;
+    height: 432px;
+    background:#1c1938;
+    border-radius: 4px 0px 0px 4px
+}
+
+#boxin h2{
+    padding: 50px;
+    font-size: 2rem;
+    width: 90%;
+}
+
+#boxin p{
+    display: flex;
+    position: absolute;
+    padding: 50px;
+    font-size: 0.83rem;
+    line-height: 20px;
+    font-weight: 400;
+    color: #ffffffa1;
+    top: 120px;
+}
+
+#boxin span{
+    color:#A663D1 ;
+}
+
+
+
+
+.stats{
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 550px;
+    left: 260px;
+    display: flex;
+}
+
+
+
+.comp h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.temp h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0px 60px;
+}
+
+.quers h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0px 10px; 
+}
+
+
+
+
+.comp p{
+    font-size: 0.7rem;
+    color:#ffffffa1;
+}
+
+.temp p{
+    font-size: 0.7rem;
+    color:#ffffffa1;
+}
+
+.quers p{
+    font-size: 0.7rem;
+    color:#ffffffa1;
+}
+
+img{
+    position: absolute;
+    display: flex;
+    margin-right: 370px;
+    width: 600px;
+    height: 432px;
+    left: 550px;
+    top: 0px;
+    border-radius: 0px 4px 4px 0px
+}
