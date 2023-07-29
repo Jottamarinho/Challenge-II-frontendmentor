@@ -12,7 +12,7 @@ body{
     color: #fff;
 }
 
-.box{
+main .box{
     padding: 10px;
     position: absolute;
     display: flex;
@@ -39,12 +39,12 @@ body{
     font-weight: 400;
     color: #ffffffa1;
     top: 120px;
+    left: 40px;
 }
 
 #boxin span{
     color:#A663D1 ;
 }
-
 
 
 
@@ -99,7 +99,7 @@ img{
     margin-right: 370px;
     width: 600px;
     height: 432px;
-    left: 550px;
-    top: 0px;
+    left: 900px;
+    top: 253px;
     border-radius: 0px 4px 4px 0px
 }

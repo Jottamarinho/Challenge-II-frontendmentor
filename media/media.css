@@ -1,14 +1,206 @@
-@media screen and (max-width: 1360px){
-    main{
-        flex-direction: column;
+@media screen and (max-width: 1770px){
+    img{
         justify-content: center;
         align-items: center;
+        position: absolute;
+        display: flex;
+        margin-right: 370px;
+        width: 630px;
+        height: 520px;
+        left: 580px;
+        top: 100px;
+        border-radius: 12px 12px 0px 0px
+    }
+
+    main .box{
+        padding: 10px;
+        position: absolute;
+        display: flex;
+        margin-left: 370px;
+        top: 620px;
+        width: 630px;
+        height: 570px;
+        left: 210px;
+        background:#1c1938;
+        border-radius: 0px 0px 12px 12px
+    }
+    
+    #boxin h2{
+        padding: 10px;
+        text-align: center;
+        font-size: 2.3rem;
+        width: 90%;
+    }
+
+    #boxin p{
+        display: flex;
+        position: absolute;
+        text-align: center;
+        padding: 10px;
+        font-size: 1.43rem;
+        line-height: 30px;
+        font-weight: 400;
+        color: #ffffffa1;
+        top: 170px;
+        left: 30px;
+    }
+    
+    .stats{
+        position: absolute;
+        text-align: center;
+        top: 400px;
+        margin-left: 170px;
+        margin-top: 550px;
+        left: 510px;
+        display: flex;
+    }
+    
+    
+.comp h2{
+    font-size: 2.7rem;
+    font-weight: 600;
+}
+
+.temp h2{
+    font-size: 2.7rem;
+    font-weight: 600;
+    padding: 0px 60px;
+}
+
+.quers h2{
+    font-size: 2.7rem;
+    font-weight: 600;
+    padding: 0px 10px; 
+}
+
+
+
+
+.comp p{
+    font-size: 1rem;
+    color:#ffffffa1;
+}
+
+.temp p{
+    font-size: 1rem;
+    color:#ffffffa1;
+}
+
+.quers p{
+    font-size: 1rem;
+    color:#ffffffa1;
+}
+
+}
+
+@media screen and (max-width: 896px){
+
+    body{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+        justify-self: center;
     }
 
     img{
-        position: ;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        display: flex;
+        margin-right: 370px;
+        width: 280px;
+        height: 210px;
+        left: 60px;
+        top: 60px;
+        border-radius: 12px 12px 0px 0px
+    }
+
+    main .box{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        padding: 10px;
+        position: absolute;
+        display: flex;
+        margin-left: 370px;
+        top: 100px;
+        width: 280px;
+        height: 700px;
+        left: -310px;
+        background:#1c1938;
+        border-radius: 0px 0px 12px 12px
+    }
+
+    #boxin h2{
+        position: absolute;
+        text-align: center;
+        top: 180px;
+        font-size: 1.4rem;
+        width: 90%;
+    }
+
+    #boxin p{
+        display: flex;
+        position: absolute;
+        text-align: center;
+        padding: 10px;
+        font-size: 0.87rem;
+        line-height: 20px;
+        font-weight: 400;
+        color: #ffffffa1;
+        top: 300px;
+        left: 10px;
+    }
+
+    .stats{
+        position: absolute;
+        text-align: center;
         flex-direction: column;
+        top: -20px;
+        margin-left: 170px;
+        margin-top: 550px;
+        left: -50px;
+        display: flex;
     }
     
+    
+.comp h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color:#ffffff;
+
+}
+
+.temp h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0px 60px;
+
+}
+
+.quers h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0px 10px; 
+}
+
+
+
+
+.comp p{
+    font-size: 0.6rem;
+    color:#ffffffa1;
+
+}
+
+.temp p{
+    font-size: 0.6rem;
+    color:#ffffffa1;
+}
+
+.quers p{
+    font-size: 0.6rem;
+    color:#ffffffa1;
+}
 
 }
